@@ -1,0 +1,1 @@
+enum ResponseValue { success, failed }

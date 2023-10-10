@@ -1,0 +1,43 @@
+name: jobify
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.7
+  responsive_sizer: ^3.2.0
+  auto_size_text: ^3.0.0
+  flex_color_scheme: ^7.3.1
+  flutter_form_builder: ^9.1.1
+  form_builder_validators: ^9.1.0
+  material_segmented_control: ^5.0.0
+  fluentui_system_icons: ^1.1.217
+  flutter_secure_storage: ^9.0.0
+  dio: ^5.3.3
+  fluttertoast: ^8.2.2
+  flutter_multi_formatter: ^2.11.12
+  passwordformfield: ^0.0.1+1
+  cached_network_image: ^3.3.0
+  flutter_image_slideshow: ^0.1.6
+  url_launcher: ^6.1.14
+  photo_view: ^0.14.0
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/svg/
+    - assets/png/
+
